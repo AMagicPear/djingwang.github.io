@@ -240,49 +240,30 @@
                    This research focuses on advancing Text-to-SQL parsing by addressing the critical challenge of semantic accuracy in LLM-generated SQL queries. While fine-tuned large language models excel at producing syntactically valid SQL, they often struggle with semantic consistency, leading to unreliable results in real-world applications.
                 </p>
                 <p>
-                    To tackle this issue, I introduced SQLFixAgent (Cen et al., Under Review), a novel multi-agent collaborative framework designed to detect and repair erroneous SQL queries. 
-                    SQLFixAgent integrates three specialized agents
-                    Starting from the core demand of multimodal interaction, we propose LLM-Guided Emotion-Action
-                    Synthesis
-                    (<a target="_blank"
-                        href="../works/Towards Emotion-enriched Text-to-Motion Generation via LLM-guided Limb-level Emotion Manipulating.pdf">Yu
-                        et al., ACM MM'2024</a>),
-                    the first method to jointly model text emotion semantics and human motion sequences for
-                    emotionally rich video generation
-                    This work enables precise conveyance of complex emotions (e.g., "excited waving") in synthetic
-                    videos, providing critical support for emotion-aware short video editing.
+                    To tackle this issue, we introduce SQLFixAgent    (<a target="_blank"
+                        href="../works/SQLFixAgent.pdf">Cen
+                        et al., AAAI'2025</a>), a novel multi-agent collaborative framework designed to detect and repair erroneous SQL queries. 
+                    SQLFixAgent integrates three specialized agents: 
+                    1) SQLReviewer: Identifies semantic mismatches using rubber duck debugging principles.
+                    2) QueryCrafter: Generates diverse candidate SQL repairs by perturbing user queries.
+                    3) SQLRefiner: Selects the optimal repair through retrieval-augmented reflection and failure memory.
                 </p>
-                <p>
-                    To address cross-modal alignment challenges, we introduce two innovations:
-                    1) A Trustworthy Reflection Mechanism (<a target="_blank"
-                        href="../works/TACL- A Trusted Action-enhanced Curriculum Learning Approach to Multimodal Affective Computing.pdf">Yu
-                        et al., Neurocomputing'2024</a>)
-                    that dynamically calibrates generation intent with emotional
-                    labels, improving semantic coherence in action outputs;
-                    2) Latent Diffusion Models
-                    that jointly model emotion-themed distributions across text, audio,
-                    and motion modalities in latent space, overcoming efficiency bottlenecks of pixel-level
-                    generation.
+                <p>This framework achieves a 3% improvement in execution accuracy on the challenging BIRD benchmark while maintaining high token efficiency, making it practical for deployment.
+Beyond this, we investigate robust Text-to-SQL parsing across diverse scenarios, including domain knowledge integration (Spider-DK) and synonym robustness (Spider-Syn). 
+                    Our work also explores the synergy between fine-tuned and foundation LLMs, demonstrating how agent collaboration can compensate for individual model limitations.
 
-                    To scale practical applications, we construct the first benchmark dataset for emotion-driven
-                    action generation,
-                    containing 100K+ emotion-annotated human motion sequences and multimodal instruction pairs.
-                    Based on this, we propose
-                    AutoEmoDirector, a framework enabling users to edit video emotion intensity and motion styles
-                    via natural language instructions
-                    (e.g., "transform a joyful dance into a sorrowful stroll"), significantly lowering the barrier
-                    for video content creation.
+                    To support future research, we contribute benchmark evaluations on five datasets (Bird, Spider, and variants) and analyze fine-grained capabilities of backbone models, providing insights for developing more reliable and interpretable Text-to-SQL systems.
                 </p>
 
                 <p>
                     <b>Papers: </b>
                     (<a target="_blank"
-                        href="../works/Towards Emotion-enriched Text-to-Motion Generation via LLM-guided Limb-level Emotion Manipulating.pdf">Yu
-                        et al., ACM MM'2024</a>)
+                        href="../works/SQLFixAgent.pdf.pdf">Cen
+                        et al., AAAI'2025</a>)
                     
                     (<a target="_blank"
-                        href="../works/TACL- A Trusted Action-enhanced Curriculum Learning Approach to Multimodal Affective Computing.pdf">Yu
-                        et al., Neurocomputing'2024</a>)
+                        href="../works/Table-Critic.pdf">Yu
+                        et al., ACL'2025</a>)
                 </p>
 
                 
