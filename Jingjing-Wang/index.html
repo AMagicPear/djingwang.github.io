@@ -251,13 +251,15 @@
                     2) QueryCrafter: Generates diverse candidate SQL repairs by perturbing user queries.
                     3) SQLRefiner: Selects the optimal repair through retrieval-augmented reflection and failure memory.
                 </p>
-                <p>This framework achieves a 3% improvement in execution accuracy on the challenging BIRD benchmark while maintaining high token efficiency, making it practical for deployment.
+                This framework achieves a 3% improvement in execution accuracy on the challenging BIRD benchmark while maintaining high token efficiency, making it practical for deployment.
 Beyond this, we investigate robust Text-to-SQL parsing across diverse scenarios, including domain knowledge integration (Spider-DK) and synonym robustness (Spider-Syn). 
                     Our work also explores the synergy between fine-tuned and foundation LLMs, demonstrating how agent collaboration can compensate for individual model limitations.
 
-                    To support future research, we contribute benchmark evaluations on five datasets (Bird, Spider, and variants) and analyze fine-grained capabilities of backbone models, providing insights for developing more reliable and interpretable Text-to-SQL systems.
-                </p>
-
+                 <p> In addition, we propose Table-Critic (<a target="_blank"
+                        href="../works/Table-Critic.pdf">Cen
+                        et al., ACL'2025</a>), a novel multi-agent framework designed to enhance table reasoning through collaborative error detection and refinement. While large language models (LLMs) excel in many reasoning tasks, they often struggle with maintaining consistency in multi-step table-based reasoning, leading to cascading errors.
+Table-Critic demonstrates how structured collaboration among LLM-based agents can overcome inherent limitations in complex reasoning tasks, offering a scalable and interpretable approach for real-world applications in data analysis and decision support.
+                 </p>
                 <p>
                     <b>Papers: </b>
                     [<a target="_blank"
