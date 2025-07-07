@@ -174,6 +174,51 @@
             <div class="col-md-12">
                 <h2><b>
                         <font size="5">Recent Research</font></b></h2>
+
+                <div class="page-header">
+                    <h4><b>Multi-Agent System for Multimodal Information Extraction and Generation</b></h4>
+                </div>
+                <img width="600" src="../img/aaai2025.svg" align="left"
+                    style="margin-left:0px;margin-right:20px;margin-bottom:10px" class="model-img">
+                <p>
+                   This research focuses on advancing Text-to-SQL parsing by addressing the critical challenge of semantic accuracy in LLM-generated SQL queries. While fine-tuned large language models excel at producing syntactically valid SQL, they often struggle with semantic consistency, leading to unreliable results in real-world applications.
+                </p>
+                <p>
+                    To tackle this issue, we introduce SQLFixAgent    (<a target="_blank"
+                        href="../works/SQLFixAgent.pdf">Cen
+                        et al., AAAI'2025</a>), a novel multi-agent collaborative framework designed to detect and repair erroneous SQL queries. 
+                    SQLFixAgent integrates three specialized agents: 
+                    1) SQLReviewer: Identifies semantic mismatches using rubber duck debugging principles.
+                    2) QueryCrafter: Generates diverse candidate SQL repairs by perturbing user queries.
+                    3) SQLRefiner: Selects the optimal repair through retrieval-augmented reflection and failure memory.
+                </p>
+                This framework achieves a 3% improvement in execution accuracy on the challenging BIRD benchmark while maintaining high token efficiency, making it practical for deployment.
+Beyond this, we investigate robust Text-to-SQL parsing across diverse scenarios, including domain knowledge integration (Spider-DK) and synonym robustness (Spider-Syn). 
+                    Our work also explores the synergy between fine-tuned and foundation LLMs, demonstrating how agent collaboration can compensate for individual model limitations.
+
+                 <p> In addition, we propose Table-Critic (<a target="_blank"
+                        href="../works/Table-Critic.pdf">Cen
+                        et al., ACL'2025</a>), a novel multi-agent framework designed to enhance table reasoning through collaborative error detection and refinement. While large language models (LLMs) excel in many reasoning tasks, they often struggle with maintaining consistency in multi-step table-based reasoning, leading to cascading errors.
+Table-Critic demonstrates how structured collaboration among LLM-based agents can overcome inherent limitations in complex reasoning tasks, offering a scalable and interpretable approach for real-world applications in data analysis and decision support.
+                 </p>
+                <p>
+                    <b>Papers: </b>
+                    [<a target="_blank"
+                        href="../works/SQLFixAgent.pdf">Cen
+                        et al., AAAI'2025</a>] [<a target="_blank"
+                            href="https://github.com/Cen-Jipeng-SUDA/SQLFixAgent">Code</a>] [<a target="_blank"
+                        href="../works/SQLFixAgent.pdf">PDF</a>], 
+                    
+                    [<a target="_blank"
+                        href="../works/Table-Critic.pdf">Yu
+                        et al., ACL'2025</a>] [<a target="_blank"
+                            href="https://github.com/Peiying-Yu/Table-Critic">Code</a>] [<a target="_blank"
+                        href="../works/Table-Critic.pdf">PDF</a>]
+                </p>
+
+                
+            </div>
+                
                 <div class="page-header">
                     <h4><b>Foundation Model for Video Understanding and Grounding</b></h4>
                 </div>
@@ -234,49 +279,7 @@
                 </p>
 
 
-                <div class="page-header">
-                    <h4><b>Multi-Agent System for Multimodal Information Extraction and Generation</b></h4>
-                </div>
-                <img width="600" src="../img/aaai2025.svg" align="left"
-                    style="margin-left:0px;margin-right:20px;margin-bottom:10px" class="model-img">
-                <p>
-                   This research focuses on advancing Text-to-SQL parsing by addressing the critical challenge of semantic accuracy in LLM-generated SQL queries. While fine-tuned large language models excel at producing syntactically valid SQL, they often struggle with semantic consistency, leading to unreliable results in real-world applications.
-                </p>
-                <p>
-                    To tackle this issue, we introduce SQLFixAgent    (<a target="_blank"
-                        href="../works/SQLFixAgent.pdf">Cen
-                        et al., AAAI'2025</a>), a novel multi-agent collaborative framework designed to detect and repair erroneous SQL queries. 
-                    SQLFixAgent integrates three specialized agents: 
-                    1) SQLReviewer: Identifies semantic mismatches using rubber duck debugging principles.
-                    2) QueryCrafter: Generates diverse candidate SQL repairs by perturbing user queries.
-                    3) SQLRefiner: Selects the optimal repair through retrieval-augmented reflection and failure memory.
-                </p>
-                This framework achieves a 3% improvement in execution accuracy on the challenging BIRD benchmark while maintaining high token efficiency, making it practical for deployment.
-Beyond this, we investigate robust Text-to-SQL parsing across diverse scenarios, including domain knowledge integration (Spider-DK) and synonym robustness (Spider-Syn). 
-                    Our work also explores the synergy between fine-tuned and foundation LLMs, demonstrating how agent collaboration can compensate for individual model limitations.
 
-                 <p> In addition, we propose Table-Critic (<a target="_blank"
-                        href="../works/Table-Critic.pdf">Cen
-                        et al., ACL'2025</a>), a novel multi-agent framework designed to enhance table reasoning through collaborative error detection and refinement. While large language models (LLMs) excel in many reasoning tasks, they often struggle with maintaining consistency in multi-step table-based reasoning, leading to cascading errors.
-Table-Critic demonstrates how structured collaboration among LLM-based agents can overcome inherent limitations in complex reasoning tasks, offering a scalable and interpretable approach for real-world applications in data analysis and decision support.
-                 </p>
-                <p>
-                    <b>Papers: </b>
-                    [<a target="_blank"
-                        href="../works/SQLFixAgent.pdf">Cen
-                        et al., AAAI'2025</a>] [<a target="_blank"
-                            href="https://github.com/Cen-Jipeng-SUDA/SQLFixAgent">Code</a>] [<a target="_blank"
-                        href="../works/SQLFixAgent.pdf">PDF</a>], 
-                    
-                    [<a target="_blank"
-                        href="../works/Table-Critic.pdf">Yu
-                        et al., ACL'2025</a>] [<a target="_blank"
-                            href="https://github.com/Peiying-Yu/Table-Critic">Code</a>] [<a target="_blank"
-                        href="../works/Table-Critic.pdf">PDF</a>]
-                </p>
-
-                
-            </div>
 
                 
 <!--                 <div class="page-header">
