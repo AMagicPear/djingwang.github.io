@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
 
     <title>Jingjing Wang</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -25,7 +25,7 @@
 
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
-    <link href="../dist/css/particles.css" rel="stylesheet">
+    <link href="./dist/css/particles.css" rel="stylesheet">
     <style>
         .model-img {
             position: relative;
@@ -80,7 +80,7 @@
 
     
                 <div class="col-md-2" style="margin-right: 0px;">
-                    <img height="160" src="../img/djwang.png" align="left" hspace="6"
+                    <img height="160" src="./img/djwang.png" align="left" hspace="6"
                         style="margin-left:-6p;margin-right:10px">
                 </div>
                 <p></p>
@@ -185,14 +185,14 @@
                 <div class="page-header">
                     <h4><b>Multi-Agent System for Structured Information Extraction and Generation</b></h4>
                 </div>
-                <img width="600" src="../img/aaai2025.svg" align="left"
+                <img width="600" src="./img/aaai2025.svg" align="left"
                     style="margin-left:0px;margin-right:20px;margin-bottom:10px" class="model-img">
                 <p>
                    This research focuses on advancing Text-to-SQL parsing by addressing the critical challenge of semantic accuracy in LLM-generated SQL queries. While fine-tuned large language models excel at producing syntactically valid SQL, they often struggle with semantic consistency, leading to unreliable results in real-world applications.
                 </p>
                 <p>
                     To tackle this issue, we introduce SQLFixAgent    (<a target="_blank"
-                        href="../works/SQLFixAgent.pdf">Cen
+                        href="./works/SQLFixAgent.pdf">Cen
                         et al., AAAI'2025</a>), a novel multi-agent collaborative framework designed to detect and repair erroneous SQL queries. 
                     SQLFixAgent integrates three specialized agents: 
                     1) SQLReviewer: Identifies semantic mismatches using rubber duck debugging principles.
@@ -204,23 +204,23 @@ Beyond this, we investigate robust Text-to-SQL parsing across diverse scenarios,
                     Our work also explores the synergy between fine-tuned and foundation LLMs, demonstrating how agent collaboration can compensate for individual model limitations.
 
                  In addition, we propose Table-Critic (<a target="_blank"
-                        href="../works/Table-Critic.pdf">Yu
+                        href="./works/Table-Critic.pdf">Yu
                         et al., ACL'2025</a>), a novel multi-agent framework designed to enhance structured table reasoning through collaborative error detection and refinement. While large language models (LLMs) excel in many reasoning tasks, they often struggle with maintaining consistency in multi-step table-based reasoning, leading to cascading errors.
 Table-Critic demonstrates how structured collaboration among LLM-based agents can overcome inherent limitations in complex reasoning tasks, offering a scalable and interpretable approach for real-world applications in data analysis and decision support.
                  
                 <p>
                     <b>Papers: </b>
                     [<a target="_blank"
-                        href="../works/SQLFixAgent.pdf">Cen
+                        href="./works/SQLFixAgent.pdf">Cen
                         et al., AAAI'2025</a>] [<a target="_blank"
                             href="https://github.com/Cen-Jipeng-SUDA/SQLFixAgent">Code</a>] [<a target="_blank"
-                        href="../works/SQLFixAgent.pdf">PDF</a>], 
+                        href="./works/SQLFixAgent.pdf">PDF</a>], 
                     
                     [<a target="_blank"
-                        href="../works/Table-Critic.pdf">Yu
+                        href="./works/Table-Critic.pdf">Yu
                         et al., ACL'2025</a>] [<a target="_blank"
                             href="https://github.com/Peiying-Yu/Table-Critic">Code</a>] [<a target="_blank"
-                        href="../works/Table-Critic.pdf">PDF</a>]
+                        href="./works/Table-Critic.pdf">PDF</a>]
                 </p>
 
                 
@@ -230,7 +230,7 @@ Table-Critic demonstrates how structured collaboration among LLM-based agents ca
                 <div class="page-header">
                     <h4><b>Multimodal Foundation Model for Video Understanding and Grounding</b></h4>
                 </div>
-                <img width="600" src="../img/hawkeye.svg" align="left" style="margin-left:0px;margin-right:20px"
+                <img width="600" src="./img/hawkeye.svg" align="left" style="margin-left:0px;margin-right:20px"
                     class="model-img">
                 <p>
                     The goal is to establish a unified framework for video anomaly detection, advancing precision in
@@ -241,7 +241,7 @@ Table-Critic demonstrates how structured collaboration among LLM-based agents ca
                 <p>
                     Starting from real-world applications in surveillance and social media analysis, we introduce
                     Hawkeye (<a target="_blank"
-                        href="../works/Hawkeye Discovering and Grounding Implicit Anoma-lous Sentiment in Recon-videos via Scene-enhanced Video Large Language Model.pdf">Zhao
+                        href="./works/Hawkeye Discovering and Grounding Implicit Anoma-lous Sentiment in Recon-videos via Scene-enhanced Video Large Language Model.pdf">Zhao
                         et al., ACM MM'24</a>)
                     , the first scene-enhanced video-language model designed for anomaly detection. Hawkeye
                     integrates multimodal context
@@ -253,7 +253,7 @@ Table-Critic demonstrates how structured collaboration among LLM-based agents ca
                 <p>
                     Building on this, we investigate low-resource scenarios where annotated anomaly data is scarce.
                     Our Continuous
-                    Attention Modeling method (<a target="_blank" href="../works/针对低资源场景下连续情感分析任务的持续注意力建模.pdf">Zhang et
+                    Attention Modeling method (<a target="_blank" href="./works/针对低资源场景下连续情感分析任务的持续注意力建模.pdf">Zhang et
                         al., JOS'23</a>) enhances adaptability by capturing long-range
                     dependencies
                     in sparse anomaly signals. Further, we extend Hawkeye with self-supervised learning to uncover
@@ -277,12 +277,12 @@ Table-Critic demonstrates how structured collaboration among LLM-based agents ca
                 </p> -->
                 <p>
                     <b>Papers: </b>                 
-                    [<a target="_blank" href="../works/针对低资源场景下连续情感分析任务的持续注意力建模.pdf">Zhang et al., JOS'23</a>],
+                    [<a target="_blank" href="./works/针对低资源场景下连续情感分析任务的持续注意力建模.pdf">Zhang et al., JOS'23</a>],
                     [<a target="_blank"
                         href="https://dl.acm.org/doi/10.1145/3664647.3681407">Zhao
                         et al., ACM MM'24 </a>] [<a target="_blank"
                             href="https://github.com/Zhao-Jianing-SUDA/Hawkeye">Code</a>] [<a target="_blank"
-                        href="../works/Hawkeye Discovering and Grounding Implicit Anoma-lous Sentiment in Recon-videos via Scene-enhanced Video Large Language Model.pdf">PDF</a>]
+                        href="./works/Hawkeye Discovering and Grounding Implicit Anoma-lous Sentiment in Recon-videos via Scene-enhanced Video Large Language Model.pdf">PDF</a>]
 
                 </p>
 
@@ -293,7 +293,7 @@ Table-Critic demonstrates how structured collaboration among LLM-based agents ca
 <!--                 <div class="page-header">
                     <h4><b>Foundation Model for Multimodal Generation</b></h4>
                 </div>
-                <img width="600" src="../img/L3EM.svg" align="left"
+                <img width="600" src="./img/L3EM.svg" align="left"
                     style="margin-left:0px;margin-right:20px;margin-bottom:10px" class="model-img">
                 <p>
                     The goal​​ is to establish an emotion-driven framework for multimodal large language model (LLM)
@@ -306,7 +306,7 @@ Table-Critic demonstrates how structured collaboration among LLM-based agents ca
                     Starting from the core demand of multimodal interaction, we propose LLM-Guided Emotion-Action
                     Synthesis
                     (<a target="_blank"
-                        href="../works/Towards Emotion-enriched Text-to-Motion Generation via LLM-guided Limb-level Emotion Manipulating.pdf">Yu
+                        href="./works/Towards Emotion-enriched Text-to-Motion Generation via LLM-guided Limb-level Emotion Manipulating.pdf">Yu
                         et al., ACM MM'2024</a>),
                     the first method to jointly model text emotion semantics and human motion sequences for
                     emotionally rich video generation
@@ -316,7 +316,7 @@ Table-Critic demonstrates how structured collaboration among LLM-based agents ca
                 <p>
                     To address cross-modal alignment challenges, we introduce two innovations:
                     1) A Trustworthy Reflection Mechanism (<a target="_blank"
-                        href="../works/TACL- A Trusted Action-enhanced Curriculum Learning Approach to Multimodal Affective Computing.pdf">Yu
+                        href="./works/TACL- A Trusted Action-enhanced Curriculum Learning Approach to Multimodal Affective Computing.pdf">Yu
                         et al., Neurocomputing'2024</a>)
                     that dynamically calibrates generation intent with emotional
                     labels, improving semantic coherence in action outputs;
@@ -351,11 +351,11 @@ Table-Critic demonstrates how structured collaboration among LLM-based agents ca
 <!--                 <p>
                     <b>Papers: </b>
                     (<a target="_blank"
-                        href="../works/Towards Emotion-enriched Text-to-Motion Generation via LLM-guided Limb-level Emotion Manipulating.pdf">Yu
+                        href="./works/Towards Emotion-enriched Text-to-Motion Generation via LLM-guided Limb-level Emotion Manipulating.pdf">Yu
                         et al., ACM MM'2024</a>)
                     
                     (<a target="_blank"
-                        href="../works/TACL- A Trusted Action-enhanced Curriculum Learning Approach to Multimodal Affective Computing.pdf">Yu
+                        href="./works/TACL- A Trusted Action-enhanced Curriculum Learning Approach to Multimodal Affective Computing.pdf">Yu
                         et al., Neurocomputing'2024</a>)
                 </p>
 
@@ -1029,8 +1029,8 @@ Optimization</em>. In Proceedings of the International Conference on Natural Lan
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../dist/js/bootstrap.min.js"></script>
-    <script src="../dist/js/particles.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/particles.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             particlesJS('particles', {
